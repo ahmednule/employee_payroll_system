@@ -34,7 +34,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/kitui-payroll-system.git
+   git clone https://github.com/ahmednule/kitui-payroll-system.git
    cd kitui-payroll-system
    ```
 
@@ -88,4 +88,5 @@ Contributions are welcome! Please follow these steps:
 ## Contact
 - **Ahmed Maitha Nule**
 - **Email**: nuleahmed6@gmail.com
-- **GitHub**: [ahmednule](https://github.com/yourusername)
+- **Linkdeen**: Ahmed Nule
+- ## Oepn to work for Now
