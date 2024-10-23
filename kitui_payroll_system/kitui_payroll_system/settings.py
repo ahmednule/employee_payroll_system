@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-f@@x*ye=!)o94x@7l3j6wr6*554!h@vac0)mz+kh)d_!(tjq=4
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSRTED_ORIGINS=['https://kitui-payroll-system.onrender.com']
 
 
 # Application definition
