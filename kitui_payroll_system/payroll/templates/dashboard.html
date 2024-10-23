@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row g-4">
+        <!-- Total Employees Card -->
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-primary">Total Employees</h5>
+                    <p class="card-text display-6 fw-bold">{{ total_employees }}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Total Payroll Records Card -->
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <h5 class="card-title text-success">Total Payroll Records</h5>
+                    <p class="card-text display-6 fw-bold">{{ total_payrolls }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
