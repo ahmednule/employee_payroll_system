@@ -8,15 +8,42 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h2 class="text-center">Payroll Report</h2>
-        <hr>
-        <p><strong>Employee Name:</strong> {{ payroll.employee.name }}</p>
-        <p><strong>Email:</strong> {{ payroll.employee.email }}</p>
-        <p><strong>Month:</strong> {{ payroll.month }}</p>
-        <p><strong>Basic Salary:</strong> Ksh {{ payroll.basic_salary }}</p>
-        <p><strong>Bonuses:</strong> Ksh {{ payroll.bonuses }}</p>
-        <p><strong>Deductions:</strong> Ksh {{ payroll.deductions }}</p>
-        <p><strong>Total Salary:</strong> Ksh {{ payroll.total_salary }}</p>
+        <h2 class="text-center mb-4 text-primary">Payroll Report</h2>
+        <hr class="mb-4">
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h4 class="card-title mb-4 text-center">Employee Details</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <strong>Employee Name:</strong> {{ payroll.employee.name }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Email:</strong> {{ payroll.employee.email }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Month:</strong> {{ payroll.month }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Basic Salary:</strong> Ksh {{ payroll.basic_salary }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Bonuses:</strong> Ksh {{ payroll.bonuses }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Deductions:</strong> Ksh {{ payroll.deductions }}
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Total Salary:</strong> 
+                                <span class="fw-bold text-success">Ksh {{ payroll.total_salary }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
