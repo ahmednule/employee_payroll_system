@@ -2,8 +2,6 @@
 
 # Kitui Payroll System
 
-![Kitui Payroll System]
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
